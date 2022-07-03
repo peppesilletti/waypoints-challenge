@@ -1,0 +1,17 @@
+/* Overrides for Leaflet styles */
+.leaflet-marker-icon {
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}

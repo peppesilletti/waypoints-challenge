@@ -1,0 +1,21 @@
+.markerList button {
+    border: none;
+    background: transparent;
+}
+
+.markerListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.markerItemLeft {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    cursor: pointer;
+    color: var(--secondary-color);
+}

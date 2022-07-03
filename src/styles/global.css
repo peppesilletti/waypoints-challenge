@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #383838;
+    --secondary-color: #747474;    
+    --button-color: #c2e451;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+.root {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.leftSection {
+    display: inline-block;
+    width: 30%;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.leftSectionHeader {
+    height: 15%;
+    padding: 10px;
+}
+
+.leftSectionBody {
+    height: 85%;
+    overflow: auto;
+}
+
+.leftSectionFooter {
+    padding: 10px;
+}
+
+.divider {
+    border: 2px solid var(--secondary-color);
+    width: 100%;
+}
+
+.downloadButton {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    background-color: var(--button-color);
+    cursor: pointer;
+}
+
+.downloadButton:disabled,
+.downloadButton[disabled]{
+    opacity: 0.5;
+}
+
+.rightSection {
+    display: inline-block;
+    width: 70%;
+}
