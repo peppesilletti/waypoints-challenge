@@ -26,8 +26,7 @@ function Map({ markers, onMarkerAdded }) {
         maxZoom: 18,
         id: "mapbox/streets-v11",
         updateWhenZooming: false,
-        accessToken:
-          "pk.eyJ1IjoidGFyLWhlbCIsImEiOiJjbDJnYWRieGMwMTlrM2luenIzMzZwbGJ2In0.RQRMAJqClc4qoNwROT8Umg",
+        accessToken: import.meta.env.VITE_OSM_ACCESS_TOKEN,
       }
     ).addTo(mapRef.current)
   }, [])
